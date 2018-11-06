@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = "EthereumAddress"
-s.version          = "1.0.0"
+s.version          = "1.1.0"
 s.summary          = "Ethereum address module in vanilla Swift for iOS ans macOS"
 
 s.description      = <<-DESC
@@ -13,7 +13,7 @@ s.author           = { "Alex Vlasov" => "alex.m.vlasov@gmail.com" }
 s.source           = { :git => 'https://github.com/shamatar/EthereumAddress.git', :tag => s.version.to_s }
 s.social_media_url = 'https://twitter.com/shamatar'
 
-s.swift_version = '4.1'
+s.swift_version = '4.2'
 s.module_name = 'EthereumAddress'
 s.ios.deployment_target = "9.0"
 s.osx.deployment_target = "10.11"

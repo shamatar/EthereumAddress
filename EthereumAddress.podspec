@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = "EthereumAddress"
-s.version          = "1.1.0"
+s.version          = "1.1.1"
 s.summary          = "Ethereum address module in vanilla Swift for iOS ans macOS"
 
 s.description      = <<-DESC
@@ -21,5 +21,5 @@ s.source_files = "EthereumAddress/Classes/*.{swift}", "EthereumAddress/EthereumA
 s.public_header_files = "EthereumAddress/EthereumAddress.h"
 s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
 
-s.dependency 'CryptoSwift', '~> 0.13'
+s.dependency 'CryptoSwift', '~> 1.0'
 end

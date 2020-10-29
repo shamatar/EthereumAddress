@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = "EthereumAddress"
-s.version          = "1.1.1"
+s.version          = "1.3.0"
 s.summary          = "Ethereum address module in vanilla Swift for iOS ans macOS"
 
 s.description      = <<-DESC

@@ -1,5 +1,5 @@
 def import_pods
-  pod 'CryptoSwift', '~> 1.0'
+  pod 'CryptoSwift', '~> 1.4'
 end
 
 target 'EthereumAddress' do
